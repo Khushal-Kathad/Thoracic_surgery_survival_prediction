@@ -1,0 +1,30 @@
+# Virtual environment
+venv/*
+
+!venv/app.py
+!venv/static
+!venv/templates
+
+# Compiled Python files
+*.pyc
+
+# IDE files
+.idea/
+.vscode/
+
+# Environment variables file (if using dotenv)
+.env
+
+# Cache and log files
+__pycache__/
+logs/
+
+# Dependencies (if not using a requirements file)
+# /requirements.txt
+
+# Generated files (if using a static site generator)
+# /build/
+# /public/
+
+# Other user-specific or system-generated files
+.DS_Store
